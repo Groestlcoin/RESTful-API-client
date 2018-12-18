@@ -22,4 +22,8 @@ Except for Authorization endpoint, each request MUST include in the HTTP headers
 
 To make an API request, simply send an HTTP request with a HTTP method to a resource URI and include in the body JSON parameters of any additional parameters required.
 
+## Resources URI
 For more information about specific resource URIs, please visit our [resource documentation](https://atomicpay.io/api/en#resources).
+
+| First Header  | Second Header |
+| ------------- | ------------- |
