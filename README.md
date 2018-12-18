@@ -25,5 +25,8 @@ To make an API request, simply send an HTTP request with a HTTP method to a reso
 ## Resources URI
 For more information about specific resource URIs, please visit our [resource documentation](https://atomicpay.io/api/en#resources).
 
-| First Header  | Second Header |
+#### Authorization
+| POST  | https://merchant.atomicpay.io/api/v1/authorization |
 | ------------- | ------------- |
+
+For detailed schema, parameters, code snippet and returned responses, read [Authorization Resource Documentation](https://atomicpay.io/api/en#resource-Authorization)
