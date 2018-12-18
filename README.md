@@ -111,8 +111,9 @@ Transactions endpoint URI allows client to retrieve a list of transactions for t
 
 For detailed schema, parameters, code snippet and returned responses, read [Transactions Resource Documentation](https://atomicpay.io/api/en#resource-Transactions)
 
-## Contributions
-Anyone and everyone is welcome to contribute. Please take a moment to review the guidelines for contributing.
+## Contributions & Developments
+Anyone and everyone is welcome to contribute or develop libraries for the programming languages. Please take a moment to review the guidelines for contributing to AtomicPay API Client.
+
 - Bug reports
 - Feature requests
 - Pull requests
