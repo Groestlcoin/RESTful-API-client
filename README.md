@@ -25,18 +25,21 @@ To make an API request, simply send an HTTP request with a HTTP method to a reso
 ## Resources URI
 Below is a list of resources URI endpoints. For more information about specific resource URIs, please visit our [resource documentation](https://atomicpay.io/api/en#resources).
 
-#### Authorization
+#### /authorization
 Validates the authentication of private and public API Keys against the account ID. The required parameters can be obtained by login to merchant control panel -> API Integration page
 
-| POST  | https://merchant.atomicpay.io/api/v1/authorization |
+| Method  | URI Endpoint |
 | ------------- | ------------- |
+| POST  | https://merchant.atomicpay.io/api/v1/authorization |
 
 For detailed schema, parameters, code snippet and returned responses, read [Authorization Resource Documentation](https://atomicpay.io/api/en#resource-Authorization)
 
-#### Account
+#### /account
 Account endpoint URI allows client to retrieve or update account details of merchant's AtomicPay account.
+
+| Method  | URI Endpoint |
+| ------------- | ------------- |
 | GET  | https://merchant.atomicpay.io/api/v1/account |
 | PUT  | https://merchant.atomicpay.io/api/v1/account |
-| ------------- | ------------- |
 
 For detailed schema, parameters, code snippet and returned responses, read [Authorization Resource Documentation](https://atomicpay.io/api/en#resource-Authorization)
