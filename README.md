@@ -112,7 +112,7 @@ Transactions endpoint URI allows client to retrieve a list of transactions for t
 For detailed schema, parameters, code snippet and returned responses, read [Transactions Resource Documentation](https://atomicpay.io/api/en#resource-Transactions)
 
 ## Contributions & Developments
-Anyone and everyone is welcome to contribute or develop libraries for the programming languages. Please take a moment to review the [guidelines for contributing to AtomicPay API Client](https://github.com/atomicpay/RESTful-API-client/edit/master/CONTRIBUTING.md).
+Anyone and everyone is welcome to contribute or develop libraries for the programming languages. Please take a moment to review the [guidelines for contributing to AtomicPay API Client](https://github.com/atomicpay/RESTful-API-client/blob/master/CONTRIBUTING.md).
 
 - Bug reports
 - Feature requests
