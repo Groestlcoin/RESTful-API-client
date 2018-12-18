@@ -10,7 +10,7 @@ Full & Comprehensive API Documentation is available on the [AtomicPay website](h
 ## Getting Started
 Developers do not need to install additional libraries or softwares. Developers may call the API directly over HTTPS via protocol methods GET, PUT, POST and DELETE to perform operations, using the language of their choice.
 
-In order to use AtomicPay Restful interace, you will to sign up for an API key. **More information at** https://atomicpay.io/api/en
+In order to use AtomicPay Restful interface, you will to sign up for an API key. **More information at** https://atomicpay.io/api/en
 
 ## Getting Access
 Authorization in AtomicPay's API utilizes a set of revocable API Keys. Each API call must be accompanied by an Authorization header that include either a public or private API Key which grants access to perform specific operations.
