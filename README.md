@@ -1,4 +1,4 @@
-![AtomicPay](https://github.com/atomicpay/RESTful-API-client/blob/master/z_images/atomicpay-header.png)
+![AtomicPay](https://github.com/atomicpay/RESTful-API-client/blob/master/z_images/atomicpay-api-header.png)
 ## AtomicPay REST API
 AtomicPay provides a standard HTTP RESTful interface which enables application developers to programmatically interact with their account in a powerful, yet secure environment. Using the AtomicPay API, clients can create and manage invoices, retrieve transaction information, access features, retrieve real-time currency rates, manage bills, and much more.
 
