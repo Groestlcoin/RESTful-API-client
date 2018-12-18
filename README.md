@@ -25,8 +25,8 @@ To make an API request, simply send an HTTP request with a HTTP method to a reso
 ## Resources URI
 Below is a list of resources URI endpoints. For more information about specific resource URIs, please visit our [resource documentation](https://atomicpay.io/api/en#resources).
 
-#### Authorization
-Validates the authentication of private and public API Keys against the account ID. The required parameters can be obtained by login to merchant control panel -> API Integration page
+### Authorization
+Authorization endpoint URI allows client to validate the authentication of API Keys.
 
 | Method  | URI Endpoint |
 | ------------- | ------------- |
@@ -34,7 +34,7 @@ Validates the authentication of private and public API Keys against the account 
 
 For detailed schema, parameters, code snippet and returned responses, read [Authorization Resource Documentation](https://atomicpay.io/api/en#resource-Authorization)
 
-#### Account
+### Account
 Account endpoint URI allows client to retrieve or update account details of merchant's AtomicPay account.
 
 | Method  | URI Endpoint |
@@ -42,4 +42,14 @@ Account endpoint URI allows client to retrieve or update account details of merc
 | GET  | https://merchant.atomicpay.io/api/v1/account |
 | PUT  | https://merchant.atomicpay.io/api/v1/account |
 
-For detailed schema, parameters, code snippet and returned responses, read [Authorization Resource Documentation](https://atomicpay.io/api/en#resource-Authorization)
+For detailed schema, parameters, code snippet and returned responses, read [Account Resource Documentation](https://atomicpay.io/api/en#resource-Account)
+
+### Billing
+Billing endpoint URI allows client to retrieve details of a specific bill or a list of bills for the merchant account filtered by query.
+
+| Method  | URI Endpoint |
+| ------------- | ------------- |
+| GET  | https://merchant.atomicpay.io/api/v1/billing |
+| GET  | https://merchant.atomicpay.io/api/v1/billing/:bill_id |
+
+For detailed schema, parameters, code snippet and returned responses, read [Billing Resource Documentation](https://atomicpay.io/api/en#resource-Billing)
