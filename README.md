@@ -55,3 +55,24 @@ Billing endpoint URI allows client to retrieve details of a specific bill or a l
 | GET  | https://merchant.atomicpay.io/api/v1/billing/:bill_id |
 
 For detailed schema, parameters, code snippet and returned responses, read [Billing Resource Documentation](https://atomicpay.io/api/en#resource-Billing)
+
+### Currencies
+Currencies endpoint URI allows client to retrieve fiat currencies that are supported by AtomicPay
+
+| Method  | URI Endpoint |
+| ------------- | ------------- |
+| GET  | https://merchant.atomicpay.io/api/v1/currencies |
+| GET  | https://merchant.atomicpay.io/api/v1/currencies/:currency |
+
+For detailed schema, parameters, code snippet and returned responses, read [Currencies Resource Documentation](https://atomicpay.io/api/en#resource-Currencies)
+
+### Invoices
+Invoices are time-sensitive payment requests. An invoice has a fixed price, typically denominated in fiat currency. AtomicPay will automatically convert this fiat amount into cryptocurrency of equivalent value, based on real-time average cryptocurrency market rate, along with an expiration time of 15 minutes.
+
+| Method  | URI Endpoint |
+| ------------- | ------------- |
+| GET  | https://merchant.atomicpay.io/api/v1/invoices |
+| GET  | https://merchant.atomicpay.io/api/v1/invoices/:invoice_id |
+| POST  | https://merchant.atomicpay.io/api/v1/invoices |
+
+For detailed schema, parameters, code snippet and returned responses, read [Currencies Resource Documentation](https://atomicpay.io/api/en#resource-Currencies)
