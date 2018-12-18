@@ -89,3 +89,22 @@ PayURL endpoint URI allows client to retrieve, create, update and delete PayURLs
 | DELETE | https://merchant.atomicpay.io/api/v1/payurl/:url_id |
 
 For detailed schema, parameters, code snippet and returned responses, read [PayURL Resource Documentation](https://atomicpay.io/api/en#resource-PayURL)
+
+### Rates
+Rates endpoint URI allows client to retrieve real-time exchange rates between a base fiat currency and merchant's supported cryptocurrencies.
+
+| Method | URI Endpoint |
+| ------------- | ------------- |
+| GET | https://merchant.atomicpay.io/api/v1/rates/:base_currency |
+
+For detailed schema, parameters, code snippet and returned responses, read [Rates Resource Documentation](https://atomicpay.io/api/en#resource-Rates)
+
+### Transactions
+Transactions endpoint URI allows client to retrieve a list of transactions for the merchant account filtered by query.
+
+| Method | URI Endpoint |
+| ------------- | ------------- |
+| GET | https://merchant.atomicpay.io/api/v1/rates/:base_currency |
+
+For detailed schema, parameters, code snippet and returned responses, read [Transactions Resource Documentation](https://atomicpay.io/api/en#resource-Transactions)
+
