@@ -104,7 +104,7 @@ Transactions endpoint URI allows client to retrieve a list of transactions for t
 
 | Method | URI Endpoint |
 | ------------- | ------------- |
-| GET | https://merchant.atomicpay.io/api/v1/rates/:base_currency |
+| GET | https://merchant.atomicpay.io/api/v1/transactions |
 
 For detailed schema, parameters, code snippet and returned responses, read [Transactions Resource Documentation](https://atomicpay.io/api/en#resource-Transactions)
 
