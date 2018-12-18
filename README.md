@@ -111,5 +111,11 @@ Transactions endpoint URI allows client to retrieve a list of transactions for t
 
 For detailed schema, parameters, code snippet and returned responses, read [Transactions Resource Documentation](https://atomicpay.io/api/en#resource-Transactions)
 
+## Contributions
+Anyone and everyone is welcome to contribute. Please take a moment to review the guidelines for contributing.
+- Bug reports
+- Feature requests
+- Pull requests
+
 ## License
 AtomicPay is released under the MIT License. Please refer to the [License](https://github.com/atomicpay/RESTful-API-client/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
