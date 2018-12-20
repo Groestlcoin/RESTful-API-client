@@ -1,4 +1,13 @@
 <?php
+Retrieves the real-time exchange rate of merchant supported cryptocurrencies, denominated in the specified base fiat currency.
+Merchant account must have at least one activated cryptocurrency wallet.
+
+To access resource URI, an API Key will need to be sent within the HTTP headers Authorization: BASIC AccountID:APIKey
+encoded in base64 over SSL. Ensure that you use Base64 to encode AccountID:APIKey and replace the value of "REPLACE_WITH_BASE64_ENCODED_CREDENTIALS"
+
+Before making a request to the endpoint, please replace the value of "REPLACE_WITH_VALUE" for each parameter
+For detailed schema, parameters, code snippet and returned responses, read https://atomicpay.io/api/en#resource-Rates
+*/
 
 $curl = curl_init();
 
