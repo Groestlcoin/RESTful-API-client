@@ -1,4 +1,11 @@
 <?php
+/*
+Validates the authentication of private and public API Keys against the account ID. The required
+parameters can be obtained by login to Merchant Control Panel -> API Integration page
+
+Before making a request to the endpoint, please replace the value of "REPLACE_WITH_VALUE" for each parameter
+For detailed schema, parameters, code snippet and returned responses, read https://atomicpay.io/api/en#resource-Authorization
+*/
 
 $curl = curl_init();
 
