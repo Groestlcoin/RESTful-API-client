@@ -7,7 +7,7 @@ This Git repository contains code examples on how to make requests to AtomicPay 
 ## What Can You Built?
 Endless imagination! With your choice of programming language, you can integrate AtomicPay cryptocurrency payment solution into Vending Machines, Smart TV apps, Point-of-Sale Systems, Games, Mobile Apps with in-store purchases, Paywalls for media sites and lots more. Do share with us, if you are building anything with AtomicPay API. 
 
-Here are some ecommerce plugins that we built with AtomicPay API: [WooCommerce](https://github.com/atomicpay/woocommerce-plugin), [PrestaShop](https://github.com/atomicpay/prestashop-plugin), [OpenCart](https://github.com/atomicpay/opencart-plugin)
+Here are some Open Source ecommerce plugins that we built with AtomicPay API: [WooCommerce](https://github.com/atomicpay/woocommerce-plugin), [PrestaShop](https://github.com/atomicpay/prestashop-plugin), [OpenCart](https://github.com/atomicpay/opencart-plugin)
 
 ## Documentation
 Full & Comprehensive API Documentation is available on the [AtomicPay website](https://atomicpay.io/api/en).
