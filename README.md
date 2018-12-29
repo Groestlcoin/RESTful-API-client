@@ -14,6 +14,8 @@ We develop in lightning speed! If you would like to keep up with what we are bui
 * [Official Telegram](https://t.me/atomicpay)
 * And obviously, please follow us on [Official Github](https://github.com/atomicpay)
 
+Meanwhile, here is a short deck to learn more about AtomicPay: https://www.slideshare.net/atomicpay/atomicpay-decentralized-noncustodial-payment-gateway-126944216
+
 ## What Can You Built?
 Endless imagination! With your choice of programming language, you can integrate AtomicPay cryptocurrency payment solution into Vending Machines, Smart TV apps, Point-of-Sale Systems, Games, Mobile Apps with in-store purchases, Paywalls for media sites and lots more. Do share with us, if you are building anything with AtomicPay API. 
 
