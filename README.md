@@ -4,6 +4,16 @@ AtomicPay provides a standard HTTP RESTful interface which enables application d
 
 This Git repository contains code examples on how to make requests to AtomicPay RESTful API for various programming languages, including C#, Go, Java, JavaScript, NodeJS, PHP, Python, Ruby and Shell scripting. Future updates include easy-to-use code library for each programming languages. If you are interested to develop open source library for any of the languages, please read our [guidelines for contributing](https://github.com/atomicpay/RESTful-API-client/blob/master/CONTRIBUTING.md) or contact us via [Telegram](https://t.me/atomicpay) or email to support@atomicpay.io
 
+### Follow us on our developments
+We develop in lightning speed! If you would like to keep up with what we are building or our upcoming cool features, please follow us on AtomicPay Official Channels:
+* [Official Twitter](https://twitter.com/AtomicPay)
+* [Official Facebook](https://www.facebook.com/atomicpay)
+* [Official Instagram](https://instagram.com/atomicpay.io/)
+* [Official YouTube](https://www.youtube.com/channel/UCm8tPvdxi8PA97ZMIINYjZQ)
+* [Official Reddit](https://www.reddit.com/r/atomicpay)
+* [Official Telegram](https://t.me/atomicpay)
+* And obviously, please follow us on [Official Github](https://github.com/atomicpay)
+
 ## What Can You Built?
 Endless imagination! With your choice of programming language, you can integrate AtomicPay cryptocurrency payment solution into Vending Machines, Smart TV apps, Point-of-Sale Systems, Games, Mobile Apps with in-store purchases, Paywalls for media sites and lots more. Do share with us, if you are building anything with AtomicPay API. 
 
