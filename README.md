@@ -2,7 +2,11 @@
 ## AtomicPay REST API
 AtomicPay provides a standard HTTP RESTful interface which enables application developers to programmatically interact with their account in a powerful, yet secure environment. Using the AtomicPay API, clients can create and manage invoices, retrieve transaction information, access features, retrieve real-time currency rates, manage bills, and much more.
 
-This Git repository contains code examples on how to make requests to AtomicPay RESTful API for various programming languages, including C#, Go, Java, JavaScript, NodeJS, PHP, Python, Ruby and Shell scripting. Future updates include easy-to-use code library for each programming languages. If you are interested to develop open source library for any of the languages, please read our [guidelines for contributing](https://github.com/atomicpay/RESTful-API-client/blob/master/CONTRIBUTING.md) or contact us via [Telegram](https://t.me/atomicpay) or email to support@atomicpay.io
+This Git repository contains code examples on how to make requests to AtomicPay RESTful API for various programming languages, including C#, Go, Java, JavaScript, NodeJS, PHP, Python, Ruby and Shell scripting. Future updates include easy-to-use code library for each programming languages. 
+
+AtomicPay C# .NET SDK for .Net Core, .NET Framework, Xamarin developments. This library is developed and maintained by contributor MSiccDev, https://github.com/MSiccDev/AtomicPay.NET
+
+If you are interested to develop open source library for any of the languages, please read our [guidelines for contributing](https://github.com/atomicpay/RESTful-API-client/blob/master/CONTRIBUTING.md) or contact us via [Telegram](https://t.me/atomicpay) or email to support@atomicpay.io
 
 ### Follow us on our developments
 We develop in lightning speed! If you would like to keep up with what we are building or our upcoming cool features, please follow us on AtomicPay Official Channels:
