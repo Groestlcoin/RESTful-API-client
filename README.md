@@ -46,6 +46,29 @@ Except for Authorization endpoint, each request MUST include in the HTTP headers
 
 To make an API request, simply send an HTTP request with a HTTP method to a resource URI and include in the body JSON parameters of any additional parameters required.
 
+## IPN / Webhooks
+Instant Payment Notification (IPN) or webhook is a message service that automatically notifies merchants of events related to AtomicPay transactions. Merchants can use it to automate back-end and administrative functions, including automatically fulfilling orders and providing customers with order status.
+
+Here is an example of the JSON data in the IPN message:
+`
+{
+"invoice_id":"DBVZzHMxjjfdRZYeignEZC",
+"order_id":"1235425",
+"fiat_price":"1.00",
+"fiat_currency":"USD",
+"payment_currency":"BTC",
+"payment_rate":"4,192.00",
+"payment_address":"bc1qmtyax97phenvvs3sdg5r45kdcphd",
+"payment_total":"0.00023855",
+"payment_paid":"0.00023855",
+"payment_due":"0.00000000",
+"payment_txid":"14edecbf114f2b2e73cf7470916122286506de5",
+"payment_confirmation":"At least 6",
+"status":"complete"
+"statusException":"null"
+}
+`
+
 ## Resources URI
 Below is a list of resources URI endpoints. For more information about specific resource URIs, please visit our [API Resource Documentation](https://atomicpay.io/api/en#resources).
 
