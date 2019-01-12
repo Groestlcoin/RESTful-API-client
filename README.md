@@ -4,7 +4,7 @@ AtomicPay provides a standard HTTP RESTful interface which enables application d
 
 This Git repository contains code examples on how to make requests to AtomicPay RESTful API for various programming languages, including C#, Go, Java, JavaScript, NodeJS, PHP, Python, Ruby and Shell scripting. Future updates include easy-to-use code library for each programming languages.
 
-Develop with C#? AtomicPay has it's C# .NET SDK for .Net Core, .NET Framework, Xamarin developments. This library is developed and maintained by contributor MSiccDev, https://github.com/MSiccDev/AtomicPay.NET
+Develop with C#? AtomicPay has it's C# .NET SDK for .Net Core, .NET Framework, Xamarin developments. The library is developed and maintained by contributor MSiccDev, https://github.com/MSiccDev/AtomicPay.NET
 
 If you are interested to develop open source library for any of the languages, please read our [guidelines for contributing](https://github.com/atomicpay/RESTful-API-client/blob/master/CONTRIBUTING.md) or contact us via [Telegram](https://t.me/atomicpay) or email to support@atomicpay.io
 
