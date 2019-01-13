@@ -2,7 +2,11 @@
 ## AtomicPay REST API
 AtomicPay provides a standard HTTP RESTful interface which enables application developers to programmatically interact with their account in a powerful, yet secure environment. Using the AtomicPay API, clients can create and manage invoices, retrieve transaction information, access features, retrieve real-time currency rates, manage bills, and much more.
 
-This Git repository contains code examples on how to make requests to AtomicPay RESTful API for various programming languages, including C#, Go, Java, JavaScript, NodeJS, PHP, Python, Ruby and Shell scripting. Future updates include easy-to-use code library for each programming languages. If you are interested to develop open source library for any of the languages, please read our [guidelines for contributing](https://github.com/atomicpay/RESTful-API-client/blob/master/CONTRIBUTING.md) or contact us via [Telegram](https://t.me/atomicpay) or email to support@atomicpay.io
+This Git repository contains code examples on how to make requests to AtomicPay RESTful API for various programming languages, including C#, Go, Java, JavaScript, NodeJS, PHP, Python, Ruby and Shell scripting. Future updates include easy-to-use code library for each programming languages.
+
+Develop with C#? AtomicPay has it's C# .NET SDK for .Net Core, .NET Framework, Xamarin developments. The library is developed and maintained by contributor MSiccDev, https://github.com/MSiccDev/AtomicPay.NET
+
+If you are interested to develop open source library for any of the languages, please read our [guidelines for contributing](https://github.com/atomicpay/RESTful-API-client/blob/master/CONTRIBUTING.md) or contact us via [Telegram](https://t.me/atomicpay) or email to support@atomicpay.io
 
 ### Follow us on our developments
 We develop in lightning speed! If you would like to keep up with what we are building or our upcoming cool features, please follow us on AtomicPay Official Channels:
@@ -45,6 +49,29 @@ Except for Authorization endpoint, each request MUST include in the HTTP headers
 - `Content-Type: application/json`
 
 To make an API request, simply send an HTTP request with a HTTP method to a resource URI and include in the body JSON parameters of any additional parameters required.
+
+## IPN / Webhooks
+Instant Payment Notification (IPN) or webhook is a message service that automatically notifies merchants of events related to AtomicPay transactions. Merchants can use it to automate back-end and administrative functions, including automatically fulfilling orders and providing customers with order status. For more information about IPN / Webhooks, please visit our [API IPN/Webhooks Documentation](https://atomicpay.io/api/en#ipn-webhooks).
+
+Here is an example of the JSON data in the IPN message:
+`
+{
+"invoice_id":"DBVZzHMxjjfdRZYeignEZC",
+"order_id":"1235425",
+"fiat_price":"1.00",
+"fiat_currency":"USD",
+"payment_currency":"BTC",
+"payment_rate":"4,192.00",
+"payment_address":"bc1qmtyax97phenvvs3sdg5r45kdcphd",
+"payment_total":"0.00023855",
+"payment_paid":"0.00023855",
+"payment_due":"0.00000000",
+"payment_txid":"14edecbf114f2b2e73cf7470916122286506de5",
+"payment_confirmation":"At least 6",
+"status":"complete"
+"statusException":"null"
+}
+`
 
 ## Resources URI
 Below is a list of resources URI endpoints. For more information about specific resource URIs, please visit our [API Resource Documentation](https://atomicpay.io/api/en#resources).
@@ -89,7 +116,7 @@ Currencies endpoint URI allows client to retrieve fiat currencies that are suppo
 For detailed schema, parameters, code snippet and returned responses, read [Currencies Resource Documentation](https://atomicpay.io/api/en#resource-Currencies)
 
 ### Invoices
-Invoices are time-sensitive payment requests. An invoice has a fixed price, typically denominated in fiat currency. AtomicPay will automatically convert this fiat amount into cryptocurrency of equivalent value, based on real-time average cryptocurrency market rate, along with an expiration time of 15 minutes.
+Invoices are time-sensitive payment requests. An invoice has a fixed price, typically denominated in fiat currency. AtomicPay will automatically convert this fiat amount into cryptocurrency of equivalent value, based on real-time average cryptocurrency market rate, along with a preset time period for payment expiration.
 
 | Method | URI Endpoint |
 | ------------- | ------------- |
