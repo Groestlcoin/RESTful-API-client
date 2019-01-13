@@ -4,6 +4,7 @@ var data = JSON.stringify({
   "account_email": "REPLACE_WITH_VALUE",
   "account_currency": "REPLACE_WITH_VALUE",
   "account_cryptocurrency": "REPLACE_WITH_VALUE",
+  "account_expirationTime": "REPLACE_WITH_VALUE",
   "account_transactionSpeed": "REPLACE_WITH_VALUE",
   "account_notificationURL": "REPLACE_WITH_VALUE"
 });
