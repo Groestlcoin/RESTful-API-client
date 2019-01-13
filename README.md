@@ -116,7 +116,7 @@ Currencies endpoint URI allows client to retrieve fiat currencies that are suppo
 For detailed schema, parameters, code snippet and returned responses, read [Currencies Resource Documentation](https://atomicpay.io/api/en#resource-Currencies)
 
 ### Invoices
-Invoices are time-sensitive payment requests. An invoice has a fixed price, typically denominated in fiat currency. AtomicPay will automatically convert this fiat amount into cryptocurrency of equivalent value, based on real-time average cryptocurrency market rate, along with an expiration time of 15 minutes.
+Invoices are time-sensitive payment requests. An invoice has a fixed price, typically denominated in fiat currency. AtomicPay will automatically convert this fiat amount into cryptocurrency of equivalent value, based on real-time average cryptocurrency market rate, along with a preset time period for payment expiration.
 
 | Method | URI Endpoint |
 | ------------- | ------------- |
